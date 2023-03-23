@@ -4,6 +4,7 @@ import { Profile } from './Profile';
 import ToDoList from './ToDoList';
 import PackingList from './PackingList';
 import List from './PeopleItem';
+import ReceiptList from './RecipeList';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ToDoList />
       <PackingList />
       <List />
+      <ReceiptList />
     </div>
   );
 }
