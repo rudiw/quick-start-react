@@ -11,6 +11,11 @@ import FormSend from './FormSend';
 import Counter from './QueueingScore';
 import FormRegistration from './FormRegistration';
 import BucketList from './BucketList';
+import CityQuiz from './CityQuiz';
+import CheckIn from './CheckIn';
+import Accordion from './Accordion';
+import Messenger from './Messenger';
+import TaskApp from './TaskApp';
 
 function App() {
   return (
@@ -30,7 +35,14 @@ function App() {
     // <FormSend />
     // <Counter />
     // <FormRegistration />
-    <BucketList />
+    // <BucketList />
+
+    // ### Managing State
+    // <CityQuiz />
+    // <CheckIn />
+    // <Accordion />
+    // <Messenger />
+    <TaskApp />
   );
 }
 
