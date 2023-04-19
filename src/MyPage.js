@@ -4,17 +4,17 @@ import Section from './Section';
 
 export default function MyPage() {
   return (
-    <Section level={1}>
+    <Section>
       <Heading>Title</Heading>
-      <Section level={2}>
+      <Section>
         <Heading>Heading 1</Heading>
         <Heading>Heading 1</Heading>
         <Heading>Heading 1</Heading>
-        <Section level={3}>
+        <Section>
           <Heading>Heading 2</Heading>
           <Heading>Heading 2</Heading>
           <Heading>Heading 2</Heading>
-          <Section level={4}>
+          <Section>
             <Heading>Heading 3</Heading>
             <Heading>Heading 3</Heading>
             <Heading>Heading 3</Heading>
