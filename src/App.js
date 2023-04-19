@@ -16,6 +16,7 @@ import CheckIn from './CheckIn';
 import Accordion from './Accordion';
 import Messenger from './Messenger';
 import TaskApp from './TaskApp';
+import MyPage from './MyPage';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
     // <CheckIn />
     // <Accordion />
     // <Messenger />
-    <TaskApp />
+    // <TaskApp />
+    <MyPage />
   );
 }
 
