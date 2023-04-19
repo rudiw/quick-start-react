@@ -22,6 +22,8 @@ import CounterApp from './Counter';
 import FormFocus from './FormFocus';
 import VideoPlayerApp from './VideoPlayer';
 import ChatRoom from './ChatRoom';
+import Canvas from './DelayedPointerPosition';
+import Stopwatch from './Stopwatch';
 
 function App() {
   return (
@@ -54,7 +56,9 @@ function App() {
     // <CounterApp />
     // <FormFocus />
     // <VideoPlayerApp />
-    <ChatRoom />
+    // <ChatRoom />
+    // <Canvas />
+    <Stopwatch />
   );
 }
 
