@@ -24,6 +24,8 @@ import VideoPlayerApp from './VideoPlayer';
 import ChatRoom from './ChatRoom';
 import Canvas from './DelayedPointerPosition';
 import Stopwatch from './Stopwatch';
+import CatFriends from './Carousel';
+import FormFocus2 from './FormFocus2';
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
     // <Accordion />
     // <Messenger />
     // <TaskApp />
+
+    // ### Escape Hatches
     // <MyPage />
     // <ProfilePage />
     // <CounterApp />
@@ -58,7 +62,9 @@ function App() {
     // <VideoPlayerApp />
     // <ChatRoom />
     // <Canvas />
-    <Stopwatch />
+    // <Stopwatch />
+    // <CatFriends />
+    <FormFocus2 />
   );
 }
 
