@@ -18,6 +18,10 @@ import Messenger from './Messenger';
 import TaskApp from './TaskApp';
 import MyPage from './MyPage';
 import ProfilePage from './ProfilePage';
+import CounterApp from './Counter';
+import FormFocus from './FormFocus';
+import VideoPlayerApp from './VideoPlayer';
+import ChatRoom from './ChatRoom';
 
 function App() {
   return (
@@ -44,9 +48,13 @@ function App() {
     // <CheckIn />
     // <Accordion />
     // <Messenger />
-    <TaskApp />
+    // <TaskApp />
     // <MyPage />
     // <ProfilePage />
+    // <CounterApp />
+    // <FormFocus />
+    // <VideoPlayerApp />
+    <ChatRoom />
   );
 }
 
