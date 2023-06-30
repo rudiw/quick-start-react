@@ -27,6 +27,8 @@ import Stopwatch from './Stopwatch';
 import CatFriends from './Carousel';
 import FormFocus2 from './FormFocus2';
 import EffectComponent from './EffectComponent';
+import ChatRoom2 from './ChatRoom2';
+import EffectPlayground from './EffectPlayground';
 
 function App() {
   return (
@@ -66,7 +68,9 @@ function App() {
     // <Stopwatch />
     // <CatFriends />
     // <FormFocus2 />
-    <EffectComponent />
+    // <EffectComponent />
+    // <ChatRoom2 />
+    <EffectPlayground />
   );
 }
 
