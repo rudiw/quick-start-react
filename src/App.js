@@ -30,6 +30,7 @@ import EffectComponent from './EffectComponent';
 import ChatRoom2 from './ChatRoom2';
 import EffectPlayground from './EffectPlayground';
 import AsyncInEffect from './AsyncInEffect';
+import ChatRoom3 from './ChatRoom3';
 
 function App() {
   return (
@@ -72,7 +73,8 @@ function App() {
     // <EffectComponent />
     // <ChatRoom2 />
     // <EffectPlayground />
-    <AsyncInEffect />
+    // <AsyncInEffect />
+    <ChatRoom3 />
   );
 }
 
