@@ -29,6 +29,7 @@ import FormFocus2 from './FormFocus2';
 import EffectComponent from './EffectComponent';
 import ChatRoom2 from './ChatRoom2';
 import EffectPlayground from './EffectPlayground';
+import AsyncInEffect from './AsyncInEffect';
 
 function App() {
   return (
@@ -70,7 +71,8 @@ function App() {
     // <FormFocus2 />
     // <EffectComponent />
     // <ChatRoom2 />
-    <EffectPlayground />
+    // <EffectPlayground />
+    <AsyncInEffect />
   );
 }
 
