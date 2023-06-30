@@ -26,6 +26,7 @@ import Canvas from './DelayedPointerPosition';
 import Stopwatch from './Stopwatch';
 import CatFriends from './Carousel';
 import FormFocus2 from './FormFocus2';
+import EffectComponent from './EffectComponent';
 
 function App() {
   return (
@@ -64,7 +65,8 @@ function App() {
     // <Canvas />
     // <Stopwatch />
     // <CatFriends />
-    <FormFocus2 />
+    // <FormFocus2 />
+    <EffectComponent />
   );
 }
 
