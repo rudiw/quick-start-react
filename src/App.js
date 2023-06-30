@@ -31,6 +31,7 @@ import ChatRoom2 from './ChatRoom2';
 import EffectPlayground from './EffectPlayground';
 import AsyncInEffect from './AsyncInEffect';
 import ChatRoom3 from './ChatRoom3';
+import ChatRoomAppInEffect from './ChatRoomAppInEffect';
 
 function App() {
   return (
@@ -74,7 +75,8 @@ function App() {
     // <ChatRoom2 />
     // <EffectPlayground />
     // <AsyncInEffect />
-    <ChatRoom3 />
+    // <ChatRoom3 />
+    <ChatRoomAppInEffect />
   );
 }
 
